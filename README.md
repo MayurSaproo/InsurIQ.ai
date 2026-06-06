@@ -1,4 +1,4 @@
-# InsurIQ.ai 🏥💡
+# InsurIQ.ai 
 
 **A full-stack Machine Learning web application that predicts annual healthcare costs based on patient demographics and lifestyle factors.**
 
@@ -6,7 +6,7 @@
 ![Tech Stack](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python-green)
 ![Tech Stack](https://img.shields.io/badge/Machine_Learning-Scikit--Learn-orange)
 
-## 📌 Project Overview
+## Project Overview
 InsurIQ bridges the gap between Data Science and Software Engineering. It provides a sleek, component-based user interface that communicates in real-time with a custom machine learning backend to forecast medical insurance charges. 
 
 ### The Machine Learning Approach
@@ -21,7 +21,7 @@ By pruning the noise, the resulting model maintains high predictive accuracy whi
 
 ---
 
-## 🚀 Features
+## Features
 * **Millisecond Latency:** The FastAPI backend processes inference requests instantly.
 * **Component-Based UI:** Built with React and Vite for blazing-fast rendering.
 * **Modern Styling:** Fully responsive dashboard styled with Tailwind CSS v4 and Lucide React icons.
@@ -29,7 +29,7 @@ By pruning the noise, the resulting model maintains high predictive accuracy whi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 **Frontend:**
 * React (Vite)
 * Tailwind CSS v4
@@ -44,7 +44,7 @@ By pruning the noise, the resulting model maintains high predictive accuracy whi
 
 ---
 
-## 💻 How to Run Locally
+## How to Run Locally
 
 ### 1. Start the FastAPI Backend
 Ensure you have Python installed, then navigate to the root directory:
