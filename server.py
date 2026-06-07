@@ -32,4 +32,4 @@ def make_prediction(data: PatientData):
     prediction = model.predict([[data.age, data.bmi, data.is_smoker]])
     
     # Send the answer back to React
-    return {"estimated_charges": round(prediction[0], 2)}
+    return {"estimated_charges": round(prediction[0], 2) * 94.95}

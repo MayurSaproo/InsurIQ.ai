@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Activity, ShieldCheck, Zap, ArrowRight, DollarSign } from 'lucide-react';
+import { Activity, ShieldCheck, Zap, ArrowRight, IndianRupee } from 'lucide-react';
 
 function App() {
   const [formData, setFormData] = useState({
@@ -67,7 +67,7 @@ function App() {
               <Zap className="h-4 w-4" /> Powered by Random Forest ML
             </div>
             <h1 className="text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
-              Predict Healthcare Costs with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Precision.</span>
+              Predict Healthcare Costs with <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-cyan-500">Precision.</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 max-w-xl mx-auto lg:mx-0">
               Stop guessing. Our machine learning model analyzes your age, BMI, and lifestyle to instantly forecast your annual medical charges.
@@ -131,11 +131,11 @@ function App() {
 
                 {/* Dynamic Results Display */}
                 {prediction !== null && (
-                  <div className="mt-6 p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl border border-blue-100 text-center animate-in fade-in slide-in-from-bottom-4 duration-500">
+                  <div className="mt-6 p-6 bg-linear-to-br from-blue-50 to-cyan-50 rounded-xl border border-blue-100 text-center animate-in fade-in slide-in-from-bottom-4 duration-500">
                     <p className="text-sm text-blue-800 font-semibold mb-1 uppercase tracking-wider">Estimated Annual Cost</p>
                     <div className="flex items-center justify-center text-4xl font-extrabold text-slate-900">
-                      <DollarSign className="h-8 w-8 text-blue-600 mr-1" />
-                      {prediction.toLocaleString()}
+                    <IndianRupee className="h-8 w-8 text-blue-600 mr-1" />                      
+                    {prediction.toLocaleString()}
                     </div>
                   </div>
                 )}
